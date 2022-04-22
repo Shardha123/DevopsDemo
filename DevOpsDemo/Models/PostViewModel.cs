@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DevOpsDemo.Models
 {
-    public class PostViewModel
+    public partial class PostViewModel
     {
         public int PostId { get; set; }
         public string Title { get; set; }
