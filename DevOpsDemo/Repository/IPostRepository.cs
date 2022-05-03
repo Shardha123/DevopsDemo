@@ -8,5 +8,6 @@ namespace DevOpsDemo.Repository
    public interface IPostRepository
     {
         List<PostViewModel> GetPosts();
+        void Dowork();
     }
 }

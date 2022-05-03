@@ -8,6 +8,11 @@ namespace DevOpsDemo.Repository
 {
     public class PostRepository : IPostRepository
     {
+        public void Dowork()
+        {
+            throw new NotImplementedException();
+        }
+
         public List<PostViewModel> GetPosts()
         {
             var posts = new List<PostViewModel> {
